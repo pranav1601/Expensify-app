@@ -22,9 +22,6 @@ const AppRouter=()=>(
                 <Route component={NotFound}/>
             </Switch>
         </div>
-        
-        
-
     </Router>
 );
 

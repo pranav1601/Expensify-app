@@ -64,7 +64,6 @@ export const startSetExpenses = () => {
         const uid=getState().auth.uid;
       return database.ref('users/'+uid+'/expenses').once('value').then((snapshot) => {
         const expenses = [];
-        dispatch(setExpenses(expenses));
         snapshot.forEach((childSnapshot) => {
           expenses.push({
             id: childSnapshot.key,
