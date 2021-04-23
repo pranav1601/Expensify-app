@@ -24,4 +24,4 @@ Open a window on your web browser and head to `localhost:8080`
 * FIREBASE_APP_ID
 If you would like to run it on your private firebase database, you need to define these in `env.development` file that has to be located in the parent directory of the project.
 <br/>
-I would recommend you to head over [here](https://expensify-budgetapp.herokuapp.com/) to access the application.
+I would recommend you to head over [ here ]( https://expensify-budgetapp.herokuapp.com/ ) to access the application.
