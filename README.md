@@ -7,7 +7,7 @@ Ensure you have git and npm installed
 ## Steps to build:
 * open command prompt(windows) or terminal(Mac/Linux)
 * Run command -> `git clone https://github.com/pranav1601/Expensify-app.git`
-* Run command -> `Expensify-app.git`
+* Run command -> `cd Expensify-app.git`
 * Run command -> `npm run build:dev`
 * Run command -> `npm run dev-server`
 
